@@ -61,13 +61,12 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_courbet/com.nxp.mifare.xml
 
 # Overlay
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-custom
-
-# Overlay-RRO
 PRODUCT_PACKAGES += \
+    ApertureOverlayCourbet \
+    FrameworksOverlayCourbet \
+    SettingsOverlayCourbet \
     SettingsProviderOverlayCourbet \
+    SystemUIOverlayCourbet \
     WifiOverlayCourbet
 
 # Power
