@@ -3,3 +3,6 @@ ro.boot.product.vendor.sku=courbet
 ro.product.odm.device=courbet
 ro.product.odm.model=M2101K9AG
 ro.product.mod_device=courbet_global
+
+# Device name
+ro.product.marketname=Mi 11 Lite 4G

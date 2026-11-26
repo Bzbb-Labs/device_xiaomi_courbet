@@ -2,3 +2,6 @@
 ro.product.odm.device=courbetin
 ro.product.odm.model=M2101K9AI
 ro.product.mod_device=courbet_in_global
+
+# Device name
+ro.product.marketname=Mi 11 Lite 4G
